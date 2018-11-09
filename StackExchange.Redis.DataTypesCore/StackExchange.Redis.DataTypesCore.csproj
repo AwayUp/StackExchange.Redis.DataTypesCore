@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>StackExchange.Redis.DataTypesCore</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Olousouzian</Authors>
+    <Company>AwayUp</Company>
+    <Description>Implementation of common .NET collection types (i.e IDictionary, ISet, IList) via abstraction over StackExchange.Redis. Forked for .NET Core</Description>
+    <RepositoryUrl>https://github.com/AwayUp/StackExchange.Redis.DataTypesCore</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <PackageIconUrl>https://static2.clutch.co/sites/default/files/logos/awayup_agency_0.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.513" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Collections\" />
+  </ItemGroup>
+</Project>
