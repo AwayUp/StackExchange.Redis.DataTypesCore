@@ -1,3 +1,5 @@
+This package / repository is now deprecated. Please, use the official nuget.
+
 # ---
 # .NET CORE VERSION OF THIS REPOSITORY : https://github.com/ArinGhazarian/StackExchange.Redis.DataTypes
 # ---
